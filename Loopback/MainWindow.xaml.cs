@@ -34,6 +34,12 @@ namespace Loopback
             ICollectionView cvApps = CollectionViewSource.GetDefaultView(dgLoopback.ItemsSource);
 
         }
+        
+        private void btnAll_Click(object sender, RoutedEventArgs e)
+        {
+            isDirty = true;
+            _loop.EnableAll();
+        }
 
 
         private void btnSave_Click(object sender, RoutedEventArgs e)

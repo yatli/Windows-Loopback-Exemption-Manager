@@ -298,6 +298,14 @@ namespace Loopback
             
         }
 
+        public void EnableAll()
+        {
+            for (int i = 0; i < Apps.Count; i++)
+            {
+                Apps[i].LoopUtil = true;
+            }
+        }
+
         private int CountEnabledLoopUtil()
         {
             var count = 0;

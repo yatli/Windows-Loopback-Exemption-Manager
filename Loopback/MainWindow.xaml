@@ -11,7 +11,8 @@
             <Label VerticalContentAlignment="Center" Margin="10,0,0,0">Filter the Apps:</Label>
             <TextBox Name="txtFilter" Grid.Row="0" Width="185" HorizontalAlignment="Left" Height="30" KeyUp="txtFilter_KeyUp" Margin="0,5" VerticalContentAlignment="Center"></TextBox>
             <CheckBox Name="cbLoopback" Click="cbLoopback_Click" VerticalContentAlignment="Center" Margin="10,0">Enabled</CheckBox>
-            <Button Name="btnSave" Grid.Row="0" Width="100" Height="30" Click="btnSave_Click" Margin="10,0" >Save</Button>
+            <Button Name="btnAll" Grid.Row="0" Width="100" Height="30" Click="btnSave_Click" Margin="10,0" >Enalbe All</Button>
+            <Button Name="btnSave" Grid.Row="0" Width="100" Height="30" Click="btnAll_Click" Margin="10,0" >Save</Button>
             <Button Name="btnRefresh" Grid.Row="0" Width="100" Height="30" Click="btnRefresh_Click" Margin="10,0" >Refresh</Button>
 
         </StackPanel>
